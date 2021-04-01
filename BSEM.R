@@ -70,7 +70,7 @@ total := i + (g*h)
              
 '
 ##BSEM fit and summary 
-fitCCBsem<- bsem(modelCC, data = IowaSEMdataCC, dp = dpriors(alpha = "normal(0, 1)", lambda = "normal(0,1)"))
+fitCCBsem<- bsem(modelCC, data = IowaSEMdataCC)
 summary(fitCCBsem)
 
 
